@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Яндекс Дом</title>
+<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon"> 
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+    <style type="text/css">
+      @import url("style.css");
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+
+<!-- ======================================= header ======================================= -->
+
+  <div class="header">
+    <img src="media/i1x.png" class="icon">
+
+    <div class="topnav" id="myTopnav">
+  <a href="#" style="opacity: 1">Сводка</a></li>
+  <a href="#">Устройства</a></li>
+  <a href="#">Сценарии</a></li>
+  <a href="javascript:void(0);" class="icon1" onclick="myFunction()">
+    <img src="media/ilm1x.svg"></i></a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</div>
+
+<!-- ======================================= Главное ======================================= -->
+<div class="content">
+  <div class="content1">
+    <div class="main_left">
+        <div class="main_title">Главное</div>
+        <div class="main_block">
+
+          
+          <div class="mb-m-title">Привет, Геннадий!</div>
+          <div class="mb-s-title">Двери и окна закрыты, сигнализация включена.<br><br><br>
+          <div class="mb-title2" >Дома</div>
+    <div class="mb-title2" >За окном</div><br> 
+    <div class="mb-title3" id="mb-title3-1">+23</div>
+    <div class="mb-title3">+19</div>
+    <div class="mb-title3" id="mb-title3-img"><img src="media/cldr.svg"></div>
+          </div>
+
+         <!-- -->
+         
+            
+          <div class="right-box-top"><div class="rb-icon"><img src="media/it.svg"></div><div class="rb-title">Phillips Cooler</div><div class="rb-title1">Начнет охлаждать в 16:30</div></div>
+ 
+<div class="right-box-middle"><div class="rb-icon"><img src="media/is.svg"></div><div class="rb-title">Xiaomi Yeelight LED Smart Bulb</div><div class="rb-title1">Включится в 17:00</div></div>
+
+<div class="right-box-bottom"><div class="rbb-i"><img src="media/m.svg"></div></div>
+      
+        </div>
+    </div>
+
+<!-- ======================================= Избранные сценарии ======================================= -->
+<script>
+function Slide(elements) {
+  elements = elements.length ? elements : [elements];
+  for (var index = 0; index < elements.length; index++) {
+    elements[index].style.display = 'none';
+  }
+}
+
+function Slideb(elements) {
+  elements = elements.length ? elements : [elements];
+  for (var index = 0; index < elements.length; index++) {
+    elements[index].style.display = 'block';
+  }
+}
+
+</script>
+
+    <div class="main_right">
+    <div class="blocks">
+        <div class="main_right_title">Избранные сценарии<img class="arrow-top-r" src="media/ar.png" onclick="Slide(document.querySelectorAll('.row1')); Slideb(document.querySelectorAll('.row1-1'));"><img class="arrow-top-l" src="media/al.svg" onclick="Slide(document.querySelectorAll('.row1-1')); Slideb(document.querySelectorAll('.row1'));"></div>
+
+       <div class="row1">
+
+<div class="mr-sb"><div class="rb-icon"><img src="media/is2.svg"></div><div class="rb-title">Выключить весь свет в доме и во дворе</div></div>
+<div class="mr-sb" id="sb2"><div class="rb-icon"><img src="media/ischeduled.svg"></div><div class="rb-title">Я ухожу</div></div>
+<div class="mr-sb" id="sb3"><div class="rb-icon"><img src="media/is2.svg"></div><div class="rb-title">Включить свет в коридоре</div></div>
+
+</div>
+
+<div class="row1">
+
+<div class="mr-sb1" ><div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Набрать горячую ванну</div><div class="rb-title1">Начнётся в 18:00</div></div>
+<div class="mr-sb1" id="sb2"><div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Сделать пол тёплым во всей квартире</div></div>
+<div class="mr-sb1" id="sb3"><div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Сделать пол тёплым во всей квартире</div></div>
+
+</div>
+
+<div class="row1">
+
+<div class="mr-sb2"><div class="rb-icon"><img src="media/is2.svg"></div><div class="rb-title">Выключить весь свет в доме и во дворе</div></div>
+<div class="mr-sb2" id="sb2"><div class="rb-icon"><img src="media/ischeduled.svg"></div><div class="rb-title">Я ухожу</div></div>
+<div class="mr-sb2" id="sb3"><div class="rb-icon"><img src="media/is2.svg"></div><div class="rb-title">Включить свет в коридоре</div></div>
+
+</div>
+
+
+<div class="row1-1">
+
+<div class="mr-sb" ><div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Набрать горячую ванну</div><div class="rb-title1">Начнётся в 18:00</div></div>
+<div class="mr-sb" id="sb2"><div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Сделать пол тёплым во всей квартире</div></div>
+<div class="mr-sb" id="sb3"><div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Сделать пол тёплым во всей квартире</div></div>
+
+</div>
+        
+    </div></div>
+
+<!-- ======================================= Избранные устройства ======================================= -->
+
+
+<!--
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}-->
+
+
+
+
+
+<!--
+     elements = document.getElementsByClassName("devices_blocks");
+  for (var index = 0; index < elements.length; index++) {
+    elements[index].style.display = 'block';
+  }
+var x = document.getElementsByClassName("devices_blocks");
+var element=document.
+if (n > x.length) {slideIndex = 1}
+
+    
+var element = document.getElementById("box");
+
+element.scrollIntoView();}
+
+
+function showB(element) {
+var element = document.getElementById("boxB");
+
+element.scrollIntoView();}
+
+</script>
+
+
+
+
+
+<!--
+<script type="text/javascript">
+function show(element) {
+
+    
+var element = document.getElementById("box");
+
+element.scrollIntoView();}
+
+
+function showB(element) {
+var element = document.getElementById("boxB");
+
+element.scrollIntoView();}
+
+
+</script>
+
+
+<script type="text/javascript">
+
+var elem = document.getElementById('arrow-top-r1');
+var sc = document.getElementById("devices_slider1");
+
+elem.addEventListener('click', scroll(){sc.scrollLeft=sc.scrollWidth});
+
+</script>-->
+
+
+
+
+
+    <div class="devices">
+    <div class="output">
+      <div class="devices_title">Избранные устройства</div>
+      <div class="devices_menu">
+        <a href="#" class="devices_menu_elem" style="background: #FFD93E">Все</a>
+        <a href="#" class="devices_menu_elem">Кухня</a>
+        <a href="#" class="devices_menu_elem">Зал</a>
+        <a href="#" class="devices_menu_elem">Лампочки</a>
+        <a href="#" class="devices_menu_elem">Камеры</a>
+        </div>
+      
+      <img class="arrow-top-r" id="arrow-top-r1" src="media/ar.png" ><img class="arrow-top-l" id="arrow-top-l1" src="media/al.svg" ></div>
+    <div class="devices_slider" id="devices_slider1">
+
+        <a class="open_window"><div class="devices_blocks" >
+          <div class="rb-icon"><img src="media/is2.svg"></div><div class="rb-title">Xiaomi</div><div class="rb-title1">Включено</div>
+        </div></a>
+
+
+<a class="open_window">
+        <div class="devices_blocks">
+        <div class="rb-icon"><img src="media/is.svg"></div><div class="rb-title">Xiaomi</div><div class="rb-title1">Включено</div>
+        
+         
+
+        </div></a>
+
+        <a class="open_window">
+        <div class="devices_blocks">
+
+        <div class="rb-icon"><img src="media/it.svg"></div><div class="rb-title">Xiaomi LED</div><div class="rb-title1">Включено</div>
+
+        </div></a>
+
+        <a class="open_window">
+        <div class="devices_blocks">
+
+        <div class="rb-icon"><img src="media/is.svg"></div><div class="rb-title">LIFX</div><div class="rb-title1">Включено</div>
+        
+
+
+        </div></a>
+        <a class="open_window">
+        <div class="devices_blocks">
+
+        <div class="rb-icon"><img src="media/it.svg"></div><div class="rb-title">Xiaomi</div><div class="rb-title1">Включено</div>
+
+        </div></a>
+
+        <a class="open_window">
+        <div class="devices_blocks">
+
+        <div class="rb-icon"><img src="media/is2.svg"></div><div class="rb-title">Xiaomi</div><div class="rb-title1">Включено</div>
+        
+      
+        </div></a>
+
+        <a class="open_window">
+        <div class="devices_blocks"> 
+
+        <div class="rb-icon"><img src="media/is.svg"></div><div class="rb-title">Xiaomi</div><div class="rb-title1">Включено</div>
+        </div></a>
+<a class="open_window">
+        <div class="devices_blocks"> 
+
+        <div class="rb-icon"><img src="media/it2.svg"></div><div class="rb-title">Phillips Cooler</div><div class="rb-title1">Включено</div>
+        
+        </div></a>
+      </div>
+
+<script type="text/javascript">
+
+var elem = document.getElementById('devices_slider1');
+var sc = document.getElementById("arrow-top-r1");
+var sc1 = document.getElementById("arrow-top-l1");
+
+sc.addEventListener('click', scroll);
+sc1.addEventListener('click', scroll1);
+
+function scroll(){
+    elem.scrollLeft = elem.scrollWidth;
+ }
+
+function scroll1(){
+    elem.scrollTo(0, 0);
+ }
+
+</script>
+
+
+
+<div class="overlay" title="окно"></div>
+<div class="popup">
+<div class="close_window"><p>Применить</p></div>
+<div class="close_window" id="close2"><p>Закрыть</p></div>
+<div class="popup_text">Xiaomi Warm Floor</div>
+<div class="popup_text1">Включено</div>
+
+<div class="popup_img"><img src="media/background@1x.svg"></div>
+</div>
+
+<script type="text/javascript">
+$('.popup .close_window, .overlay').click(function (){
+$('.popup, .overlay').css({'opacity': 0, 'visibility': 'hidden'});
+});
+$('a.open_window').click(function (e){
+$('.popup, .overlay').css({'opacity': 1, 'visibility': 'visible'});
+e.preventDefault();
+});
+</script>
+
+
+
+
+
+
+
+
+    <!-- ======================================= Футер ======================================= -->
+
+  <div class="footer">
+    <div class="footer_menu">
+      <a href="#" class="footer_menu_elem">Помощь</a>
+      <a href="#" class="footer_menu_elem">Обратная связь</a>
+      <a href="#" class="footer_menu_elem">Разработчикам</a>
+      <a href="#" class="footer_menu_elem">Условия использования</a>
+
+      <div class="copy">© 2001–2017  ООО «Яндекс»</div>
+
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
+<!-- 
+function scroll(){
+    elem.scrollLeft = elem.scrollWidth;
+ }
+-->
